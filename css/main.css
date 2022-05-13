@@ -2691,11 +2691,13 @@ html.fp-enabled {
 }
 .banner-top {
     position: fixed;
-    bottom: 0;
-    width: 100%;
+    bottom: 10px;
+    left: 5%;
+    width: 90%;
     background: #28293B;
     color: #FFF;
     z-index: 1001;
+    border-radius: 20px;
     transform: translateY(180px);
     transition: transform 0.3s linear;
     will-change: transform;
