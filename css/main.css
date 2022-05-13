@@ -1712,7 +1712,7 @@ html.fp-enabled {
 }
 .section1.-with-text .link__copy {
     display: inline-block;
-    color: #22f200;
+    color: #0066FF;
 }
 .section1.-with-text .link__copy:hover {
     color: #fff;
@@ -2031,7 +2031,7 @@ html.fp-enabled {
     }
 }
 .section3 h2 span {
-    color: #22f200;
+    color: #0066FF;
 }
 .section4 {
     visibility: hidden;
@@ -2605,7 +2605,7 @@ html.fp-enabled {
     }
 }
 .download-inner__item:hover {
-    box-shadow: 0 0 10px #22f200;
+    box-shadow: 0 0 10px #0066FF;
 }
 .download-inner img {
     display: block;
@@ -2647,11 +2647,11 @@ html.fp-enabled {
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #22f200;
+    background: #0066FF;
     transition: all 0.1s cubic-bezier(0.42, 0, 0.58, 1);
 }
 .copyright a:hover:after {
-    box-shadow: 0 1px 10px 2px #22f200;
+    box-shadow: 0 1px 10px 2px #0066FF;
 }
 .menu {
     font-size: 16px;
@@ -2682,12 +2682,12 @@ html.fp-enabled {
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #22f200;
+    background: #0066FF;
     transition: all 0.1s cubic-bezier(0.42, 0, 0.58, 1);
 }
 .menu a:hover:after,
 .menu span:hover:after {
-    box-shadow: 0 1px 10px 2px #22f200;
+    box-shadow: 0 1px 10px 2px #0066FF;
 }
 .banner-top {
     position: fixed;
