@@ -2808,6 +2808,10 @@ html.fp-enabled {
     display: block;
     width: 141px;
     margin: 20px auto 0 auto;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
 }
 @media (min-width: 980px) {
     .banner-top .button {
@@ -2816,8 +2820,5 @@ html.fp-enabled {
         right: 44px;
         transform: translateY(-50%);
         margin: 0;
-        display: flex;
-        justify-content: center;
-        width: 150px;
     }
 }
