@@ -2691,14 +2691,13 @@ html.fp-enabled {
 }
 .banner-top {
     position: fixed;
-    bottom: 10px;
+    bottom: 0;
     left: 5%;
     width: 90%;
     background: #28293B;
     color: #FFF;
     z-index: 1001;
     border-radius: 20px;
-    transform: translateY(50px);
     transition: transform 0.3s linear;
     will-change: transform;
 }
@@ -2709,6 +2708,7 @@ html.fp-enabled {
 }
 .banner-top.-animate {
     transform: translateY(0);
+    bottom: 10px;
 }
 .banner-top__body {
     position: relative;
