@@ -2735,6 +2735,11 @@ html.fp-enabled {
     line-height: 22px;
     font-weight: 700;
 }
+
+.banner-top__subtitle{
+    width: 650px;
+}
+
 .banner-top__text {
     position: relative;
     max-width: 396px;
@@ -2811,5 +2816,8 @@ html.fp-enabled {
         right: 44px;
         transform: translateY(-50%);
         margin: 0;
+        display: flex;
+        justify-content: center;
+        width: 150px;
     }
 }
