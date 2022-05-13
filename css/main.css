@@ -2698,7 +2698,7 @@ html.fp-enabled {
     color: #FFF;
     z-index: 1001;
     border-radius: 20px;
-    transform: translateY(180px);
+    transform: translateY(200px);
     transition: transform 0.3s linear;
     will-change: transform;
 }
