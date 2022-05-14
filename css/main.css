@@ -2368,7 +2368,7 @@ html.fp-enabled {
     height: 72px;
     font-size: 0;
     line-height: 0;
-    background: url(//icq.com/cached/img/landing/desktop/logo-iva.png) no-repeat 0 0;
+    background: url('') no-repeat 0 0;
     background-size: cover;
 }
 .features__block.-features6 {
@@ -2463,7 +2463,7 @@ html.fp-enabled {
     }
 }
 .features__block.-features10 {
-    background-image: url(../cached/img/landing/desktop/features10-bg.png);
+    background-image: url('../images/features10-bg.png');
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100% auto;
