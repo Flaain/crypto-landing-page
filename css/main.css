@@ -2677,12 +2677,12 @@ html.fp-enabled {
     z-index: 1001;
     border-radius: 20px;
     transform: translateY(180px);
-    transition: transform 0.3s linear;
+    transition: transform 0.8s linear;
     will-change: transform;
 }
 @media (min-width: 980px) {
     .banner-top {
-        display: none;
+        display: block;
     }
 }
 .banner-top.-animate {
@@ -2703,7 +2703,6 @@ html.fp-enabled {
         display: flex;
         -ms-flex-align: center;
         align-items: center;
-        display: none;
         width: 960px;
         height: 100px;
         text-align: left;
