@@ -2693,6 +2693,7 @@ html.fp-enabled {
 }
 .banner-top.-animate {
     transform: translateY(0);
+    display: none;
     bottom: 10px;
 }
 .banner-top__body {
