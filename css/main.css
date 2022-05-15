@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+@import url(../fonts/fonts.css);
+
+@import url(../vendor/normalize.css);
+
 article,
 aside,
 audio,
@@ -112,27 +117,7 @@ input[type="number"]::-webkit-inner-spin-button {
 textarea {
     -webkit-appearance: none;
 }
-@font-face {
-    font-family: TTNorms;
-    src: url(../cached/css/fonts/TTNorms-Regular.eot);
-    src: url(../cached/css/fonts/TTNorms-Regular-1.eot) format("embedded-opentype"), url(../cached/css/fonts/TTNorms-Regular.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: TTNorms;
-    src: url(../cached/css/fonts/TTNorms-Medium.eot);
-    src: url(../cached/css/fonts/TTNorms-Medium-1.eot) format("embedded-opentype"), url(../cached/css/fonts/TTNorms-Medium.woff) format("woff");
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: TTNorms;
-    src: url(../cached/css/fonts/TTNorms-Bold.eot);
-    src: url(../cached/css/fonts/TTNorms-Bold-1.eot) format("embedded-opentype"), url(../cached/css/fonts/TTNorms-Bold.woff) format("woff");
-    font-weight: 700;
-    font-style: normal;
-}
+
 body,
 html {
     width: 100%;
@@ -143,7 +128,7 @@ html.-overflow-hidden {
     overflow: hidden;
 }
 body {
-    font-family: TTNorms, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
