@@ -128,7 +128,7 @@ html.-overflow-hidden {
     overflow: hidden;
 }
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
@@ -504,17 +504,17 @@ html.fp-enabled {
     transition: none;
 }
 
-.header__logo{
+.header__logo {
     display: block;
     top: 0;
     left: 0;
     width: 181px;
     height: 36px;
-    background-image: url('../images/logo.png');
+    background-image: url("../images/logo.png");
 }
 
-.-bglight .header__logo{
-    background-image: url('../images/logo_dark.png');
+.-bglight .header__logo {
+    background-image: url("../images/logo_dark.png");
     object-fit: cover;
     object-position: center;
     z-index: 999;
