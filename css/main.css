@@ -1885,8 +1885,8 @@ html.fp-enabled {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%) rotateZ(0.001deg);
-    width: 500px;
-    height: 1025px;
+    width: 494px;
+    height: 1007px;
     border: 1px solid transparent;
 }
 @media (max-height: 599px), (max-width: 979px) {
@@ -1969,7 +1969,7 @@ html.fp-enabled {
     width: auto;
     height: 100%;
     visibility: visible;
-    border-radius: 20px;
+    border-radius: 35px;
 }
 @media (max-height: 599px), (max-width: 979px) {
     .section3 video {
