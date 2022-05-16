@@ -1259,7 +1259,7 @@ html.fp-enabled {
     opacity: 1;
     animation-name: Appearance;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 1.4s;
     animation-timing-function: cubic-bezier(0.81, 0, 1, 1);
 }
 @-webkit-keyframes Appearance {
@@ -1319,7 +1319,6 @@ html.fp-enabled {
     opacity: 1;
     animation-name: Appearance;
     animation-duration: 3s;
-    animation-delay: 2s;
     animation-timing-function: cubic-bezier(0.81, 0, 1, 1);
 }
 @-webkit-keyframes Appearance {
@@ -1885,8 +1884,8 @@ html.fp-enabled {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%) rotateZ(0.001deg);
-    width: auto;
-    height: 105%;
+    width: 495px;
+    height: 1007px;
     border: 1px solid transparent;
 }
 @media (max-height: 599px), (max-width: 979px) {
@@ -1969,6 +1968,7 @@ html.fp-enabled {
     width: auto;
     height: 100%;
     visibility: visible;
+    border-radius: 20px;
 }
 @media (max-height: 599px), (max-width: 979px) {
     .section3 video {
