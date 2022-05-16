@@ -1881,11 +1881,12 @@ html.fp-enabled {
 .section3__video-mask {
     display: block;
     position: absolute;
+    object-fit: cover;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%) rotateZ(0.001deg);
-    width: 495px;
-    height: 1007px;
+    width: 500px;
+    height: 1025px;
     border: 1px solid transparent;
 }
 @media (max-height: 599px), (max-width: 979px) {
