@@ -451,20 +451,11 @@ b {
     z-index: 2;
     cursor: pointer;
 }
-.header-language__curent:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 11px;
-    width: 10px;
-    height: 6px;
-    background: url(//icq.com/cached/img/landing/desktop/arrow.svg) no-repeat 0 0;
-}
 .header-language__curent:before {
     display: none;
     content: "";
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 11px;
     width: 10px;
     height: 0;
