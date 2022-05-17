@@ -124,14 +124,7 @@ body.-webcalls .page {
     width: 100%;
     height: 100%;
 }
-body.-webcalls .page {
-    background: url(//icq.com/cached/img/landing/desktop/grid-top-mobile.png) no-repeat 50% 0;
-}
-@media (min-width: 768px) {
-    body.-webcalls .page {
-        background: url(//icq.com/cached/img/landing/desktop/grid-bottom.png) no-repeat 50% 100%;
-    }
-}
+
 body.-myteam {
     color: #000;
     background: #f3f6fd;
@@ -544,13 +537,13 @@ b {
         padding-right: 12%;
     }
 }
-.footer .menu {
-    text-align: center;
-}
+
 @media (min-width: 768px) {
-    .footer .menu {
+    .content-left .menu {
         text-align: left;
-        margin-left: 26%;
+        display: flex;
+        flex-direction: column;
+        left: 7%;
     }
 }
 .content-left {
@@ -747,7 +740,17 @@ b {
     font-size: 16px;
     line-height: 20px;
     list-style: none !important;
+    position: fixed;
+    left: 7%;
+    bottom: 90px;
 }
+
+@media (min-width: 375px) {
+    .menu{
+        display: none;
+    }
+}
+
 .menu__item {
     white-space: nowrap;
 }
