@@ -617,7 +617,7 @@ html.fp-enabled {
     border-radius: 12px;
 }
 
-.-bglight .header-language__list{
+.-bglight .header-language__list {
     background: rgba(23, 23, 23, 0.8);
     color: #fff;
 }

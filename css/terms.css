@@ -83,6 +83,27 @@ section,
 time {
     display: block;
 }
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    width: 7px;
+}
+*::-webkit-scrollbar-track {
+    border-radius: 10px;
+    border: 0 !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -418,7 +439,8 @@ b {
 .header-language__list {
     padding-top: 8px;
     padding-bottom: 8px;
-    background: rgba(138, 137, 137, 0.14);
+    background: rgba(23, 23, 23, 0.8);
+    color: #fff;
     border-radius: 12px;
 }
 .header-language__item {
