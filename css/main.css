@@ -616,6 +616,12 @@ html.fp-enabled {
     background: rgba(88, 88, 88, 0.8);
     border-radius: 12px;
 }
+
+.-bglight .header-language__list{
+    background: rgba(23, 23, 23, 0.8);
+    color: #fff;
+}
+
 .header-language__item {
     position: relative;
     font-size: 14px;
