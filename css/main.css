@@ -972,10 +972,10 @@ html.fp-enabled {
 }
 @keyframes shadowExplode {
     0% {
-        box-shadow: 0 12px 34px rgba(34, 242, 0, 0.8);
+        box-shadow: 0 12px 34px rgba(0, 105, 255, 0.8);
     }
     25% {
-        box-shadow: 0 20px 200px rgba(34, 242, 0, 0.2);
+        box-shadow: 0 20px 200px rgba(0, 105, 255, 0.2);
     }
     50% {
         box-shadow: 0 20px 200px rgba(34, 242, 0, 0);
@@ -984,15 +984,15 @@ html.fp-enabled {
         box-shadow: 0 0 0 rgba(34, 242, 0, 0);
     }
     100% {
-        box-shadow: 0 10px 34px rgba(34, 242, 0, 0.5);
+        box-shadow: 0 10px 34px rgba(0, 105, 255, 0.5);
     }
 }
 @keyframes shadowExplodeDark {
     0% {
-        box-shadow: 0 12px 34px rgba(34, 242, 0, 0.8), inset 0 10px 14px rgba(0, 0, 0, 0.38);
+        box-shadow: 0 12px 34px rgba(0, 105, 255, 0.8), inset 0 10px 14px rgba(0, 0, 0, 0.38);
     }
     25% {
-        box-shadow: 0 20px 200px rgba(34, 242, 0, 0.2), inset 0 10px 14px rgba(0, 0, 0, 0.38);
+        box-shadow: 0 20px 200px rgba(0, 105, 255, 0.2), inset 0 10px 14px rgba(0, 0, 0, 0.38);
     }
     50% {
         box-shadow: 0 20px 200px rgba(34, 242, 0, 0), inset 0 10px 14px rgba(0, 0, 0, 0.38);
@@ -1001,7 +1001,7 @@ html.fp-enabled {
         box-shadow: 0 0 0 rgba(34, 242, 0, 0), inset 0 10px 14px rgba(0, 0, 0, 0.38);
     }
     100% {
-        box-shadow: 0 10px 34px rgba(34, 242, 0, 0.5), inset 0 10px 14px rgba(0, 0, 0, 0.38);
+        box-shadow: 0 10px 34px rgba(0, 105, 255, 0.5), inset 0 10px 14px rgba(0, 0, 0, 0.38);
     }
 }
 @keyframes shadowExplodeMyteam {
