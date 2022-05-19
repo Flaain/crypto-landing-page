@@ -488,7 +488,7 @@ html.fp-enabled {
     .header__logo {
         transform: translateY(-72px);
         opacity: 0;
-        transition: transform 0.8s linear 2.3s, opacity 0.8s linear 2.3s;
+        transition: transform 0.8s linear 3.8s, opacity 0.8s linear 3.8s;
     }
 }
 .header__logo.-start {
@@ -2705,6 +2705,7 @@ html.fp-enabled {
 }
 .banner-top.-animate {
     transform: translateY(0);
+    transition-delay: 3.5s;
     bottom: 10px;
 }
 .banner-top__body {
