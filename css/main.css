@@ -2826,8 +2826,8 @@ html.fp-enabled {
 
 .loader {
     --duration: 3s;
-    --primary: rgba(39, 94, 254, 1);
-    --primary-light: #2f71ff;
+    --primary: rgba(0, 105, 255, 1);
+    --primary-light: #0066ff;
     --primary-rgba: rgba(39, 94, 254, 0);
     width: 200px;
     height: 320px;
