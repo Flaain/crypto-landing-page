@@ -1765,7 +1765,7 @@ html.fp-enabled {
     .section2.-left .section2__text {
         top: 15.5%;
         left: 110px;
-        transform: translateX(0) translateY(0) rotateZ(0.001deg);
+        transform: translateX(8px) translateY(0) rotateZ(0.001deg);
         color: #dddde2;
     }
     .section2.-left .section2__text span.-active {
