@@ -1869,8 +1869,12 @@ html.fp-enabled {
 @media (min-height: 600px) and (min-width: 980px) {
     .section3__video {
         position: fixed;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         top: 104%;
-        height: 104%;
+        height: 100%;
         transition: all 0.4s linear;
         will-change: top, transform;
     }
@@ -1887,13 +1891,14 @@ html.fp-enabled {
 }
 .section3__video-mask {
     display: block;
-    position: absolute;
+    position: relative;
     object-fit: cover;
+    overflow: hidden;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%) rotateZ(0.001deg);
-    width: 494px;
-    height: 1007px;
+    width: auto;
+    height: 100%;
     border: 1px solid transparent;
 }
 @media (max-height: 599px), (max-width: 979px) {
@@ -1964,7 +1969,7 @@ html.fp-enabled {
     transition-timing-function: ease;
 }
 .section3__hand.-move {
-    top: 62.5%;
+    top: 50.5%;
 }
 .section3__hand.-hide {
     opacity: 0;
@@ -1973,8 +1978,11 @@ html.fp-enabled {
     transform: translateY(-29%);
 }
 .section3 video {
+    position: absolute;
+    left: 24px;
+    top: 19px;
     width: auto;
-    height: 100%;
+    height: 96%;
     visibility: visible;
     border-radius: 35px;
 }
@@ -1985,8 +1993,8 @@ html.fp-enabled {
 }
 .section3 video:nth-child(2) {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 19px;
+    left: 24px;
     opacity: 0;
     transition: opacity 0.4s ease;
     will-change: opacity;
@@ -2523,6 +2531,7 @@ html.fp-enabled {
     line-height: 24px;
     color: #eef1f4;
 }
+
 .features__list li {
     position: relative;
     padding-left: 42px;
