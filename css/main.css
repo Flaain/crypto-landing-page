@@ -488,7 +488,7 @@ html.fp-enabled {
     .header__logo {
         transform: translateY(-72px);
         opacity: 0;
-        transition: transform 0.8s linear 3.8s, opacity 0.8s linear 3.8s;
+        transition: transform 0.55s linear 3.5s, opacity 0.8s linear 3.5s;
     }
 }
 .header__logo.-start {
